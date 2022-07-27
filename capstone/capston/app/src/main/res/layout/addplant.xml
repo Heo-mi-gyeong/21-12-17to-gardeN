@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/plantName"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:text="내가 올릴 식물" />
+
+        <EditText
+            android:id="@+id/plantname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint = "@color/yellow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="2">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/exchange"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="교환" />
+
+        <EditText
+            android:id="@+id/hope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint = "@color/yellow"
+            android:layout_marginTop="20dp"
+            android:hint="희망 교환 식물"
+            android:layout_weight="2"
+            android:enabled="false"/>
+
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="6dp"
+        android:text="나눔" />
+
+    <Button
+        android:id="@+id/업로드"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/buttoncustom"
+        android:text="사진 업로드" />
+
+
+    <ImageView
+        android:id="@+id/addimage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/farmer2" />
+
+    <Button
+        android:id="@+id/등록"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttoncustom"
+        android:text="등록" />
+
+
+</LinearLayout>

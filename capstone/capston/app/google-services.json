@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "853233921499",
+    "firebase_url": "https://to-garden-mg-default-rtdb.firebaseio.com",
+    "project_id": "to-garden-mg",
+    "storage_bucket": "to-garden-mg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853233921499:android:f72834fb9d6c491288cbfe",
+        "android_client_info": {
+          "package_name": "com.cookandroid.capston"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853233921499-1addn17p0dm1jjeu3iigsoge4h19k52k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookandroid.capston",
+            "certificate_hash": "51d99f756c7dba45d28cbd4d3fa05c928289b0cd"
+          }
+        },
+        {
+          "client_id": "853233921499-b5rafd7kc779fk02alqettgtqr487fue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8WQgZJxX-WmpZBpPY_NEnp-tXaAmf5XM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853233921499-b5rafd7kc779fk02alqettgtqr487fue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
